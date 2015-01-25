@@ -4,7 +4,9 @@
         "cocur/slugify": "~1.0",
         "doctrine/dbal": "~2.5",
         "doctrine/orm": "~2.3",
-        "symfony/console": "~2.5"
+        "symfony/console": "~2.5",
+        "twig/twig": "~1.0",
+        "twitter/bootstrap": "~3.3.2"
     },
     "license": "MIT",
     "authors": [

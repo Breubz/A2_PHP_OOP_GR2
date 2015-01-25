@@ -6,20 +6,9 @@
  * Time: 12:12
  */
 
-require __DIR__.'/vendor/autoload.php';
 
-use Unitato\Init\Article;
-
-$article = new Article();
-$slugify = new \Cocur\Slugify\Slugify();
-
-$title ='Pouet Pouet';
-
-$article
-    ->setId(8)
-    ->setTitle('Pouet Pouet')
-    ->setSlug($slugify->slugify($title))
-    ->setStatus(Article::STATUS_PENDING)
-;
-
-var_dump($article);
+/** @var \Doctrine\ORM\EntityManager $em */
+$em = require __DIR__ . '/_header.php';
+// Display the model
+echo $twig ->render('index.html.twig',[
+]);
