@@ -1,0 +1,24 @@
+{
+    "name": "AntoineEisele/a2_poo",
+    "require": {
+        "cocur/slugify": "~1.0",
+        "doctrine/dbal": "~2.5",
+        "doctrine/orm": "~2.3",
+        "symfony/console": "~2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antoine EISELE",
+            "email": "Antoine_eisele@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unitato\\Init\\": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
